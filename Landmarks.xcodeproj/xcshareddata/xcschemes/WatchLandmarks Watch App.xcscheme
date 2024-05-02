@@ -63,6 +63,16 @@
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
       notificationPayloadFile = "WatchLandmarks Watch App/PushNotificationPayload.apns">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3FB669062BDA27470069A0C5"
+            BuildableName = "WatchLandmarks Watch App.app"
+            BlueprintName = "WatchLandmarks Watch App"
+            ReferencedContainer = "container:Landmarks.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

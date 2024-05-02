@@ -27,6 +27,7 @@
 		3F269B032BD21AC3001E016D /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F269B022BD21AC3001E016D /* ProfileSummary.swift */; };
 		3F269B052BD21BBB001E016D /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F269B042BD21BBB001E016D /* HikeBadge.swift */; };
 		3F269B072BD21F4E001E016D /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F269B062BD21F4E001E016D /* ProfileEditor.swift */; };
+		3F7F1A7E2BE381EE0017522E /* PushNotificationPayload.apns in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6692C2BDA2D3D0069A0C5 /* PushNotificationPayload.apns */; };
 		3F9FD1612BD0DFB60004F4EC /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FD1602BD0DFB60004F4EC /* LandmarksApp.swift */; };
 		3F9FD1632BD0DFB60004F4EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FD1622BD0DFB60004F4EC /* ContentView.swift */; };
 		3F9FD1652BD0DFB70004F4EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9FD1642BD0DFB70004F4EC /* Assets.xcassets */; };
@@ -538,6 +539,7 @@
 				3FB6691C2BDA27B50069A0C5 /* hikeData.json in Resources */,
 				3FB669272BDA293A0069A0C5 /* Assets.xcassets in Resources */,
 				3FB6692D2BDA304A0069A0C5 /* Assets.xcassets in Resources */,
+				3F7F1A7E2BE381EE0017522E /* PushNotificationPayload.apns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,7 +597,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FBCCF482BE3573500E861B2 /* LandmarksUITestsLaunchTests.swift in Sources */,
 				3F9FD17C2BD0DFB70004F4EC /* LandmarksUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -769,6 +770,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = L82Q8X2NF4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -798,6 +800,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = L82Q8X2NF4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -898,6 +901,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WatchLandmarks Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = L82Q8X2NF4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = WatchLandmarks;
@@ -928,6 +932,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WatchLandmarks Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = L82Q8X2NF4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = WatchLandmarks;
