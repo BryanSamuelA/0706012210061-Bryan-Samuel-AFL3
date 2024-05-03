@@ -1,13 +1,13 @@
 //
-//  FavouiteButton.swift
+//  FavoriteButton.swift
 //  Landmarks
 //
-//  Created by student on 19/04/24.
+//  Created by student on 03/05/24.
 //
 
 import SwiftUI
 
-struct FavouiteButton: View {
+struct FavoriteButton: View {
     @Binding var isSet: Bool
     
     var body: some View {
@@ -21,5 +21,5 @@ struct FavouiteButton: View {
     }
 }
 #Preview {
-    FavouiteButton(isSet: .constant(true))
+    FavoriteButton(isSet: .constant(true))
 }
